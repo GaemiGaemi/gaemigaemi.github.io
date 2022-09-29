@@ -13,12 +13,18 @@ a:active {text-decoration:none; color:#000000; }
 
 
  #1a {
+    width:200px;
+    height:200px;
     background-color:black;
 }
 #2a {
+    width:200px;
+    height:200px;
     background-color:rgb(151, 27, 27);
 }
 #3a {
+    width:200px;
+    height:200px;
     background-color:rgb(112, 62, 62);
 }
 
