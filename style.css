@@ -1,10 +1,10 @@
 header {
-
+    height: 200px;
     background-color:black;
 }
 
 h1 {
-    color:red;
+    color:white;
 }
 
 a:link { text-decoration:none; color:#000000;}
@@ -12,17 +12,19 @@ a:visited {text-decoration:none;color:#000000;}
 a:active {text-decoration:none; color:#000000; }
 
 #container {
+    inline-size: auto;
     width: 600px;
     height: 700px;
 }
 
 #ea {
-    
+    inline-size: auto;
     width: 200px;
     height: 200px;
     background-color:black;
 }
 #eb {
+    inline-size: auto;
     width: 200px;
     height: 200px;
     background-color:rgb(151, 27, 27);
