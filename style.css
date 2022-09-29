@@ -12,6 +12,8 @@ a:visited {text-decoration:none;color:#000000;}
 a:active {text-decoration:none; color:#000000; }
 
 #container {
+    display:inline-block;
+
     width: 600px;
     height: 700px;
 }
