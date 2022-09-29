@@ -1,5 +1,5 @@
 header {
-    height: 200px;
+    height: 500px;
     background-color:black;
 }
 
@@ -12,24 +12,24 @@ a:visited {text-decoration:none;color:#000000;}
 a:active {text-decoration:none; color:#000000; }
 
 #container {
-    inline-size: auto;
     width: 600px;
     height: 700px;
 }
 
 #ea {
-    inline-size: auto;
+    display:inline-block;
     width: 200px;
     height: 200px;
     background-color:black;
 }
 #eb {
-    inline-size: auto;
+    display:inline-block;
     width: 200px;
     height: 200px;
     background-color:rgb(151, 27, 27);
 }
 #ec {
+    display:inline-block;
     width: 200px;
     height: 200px;
     background-color:rgb(112, 62, 62);
