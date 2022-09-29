@@ -20,19 +20,19 @@ a:active {text-decoration:none; color:#000000; }
 
 #ea {
     display:inline-block;
-    width: 200px;
+    width: 50px;
     height: 200px;
     background-color:black;
 }
 #eb {
     display:inline-block;
-    width: 200px;
+    width: 50px;
     height: 200px;
     background-color:rgb(151, 27, 27);
 }
 #ec {
     display:inline-block;
-    width: 200px;
+    width: 50px;
     height: 200px;
     background-color:rgb(112, 62, 62);
 }
