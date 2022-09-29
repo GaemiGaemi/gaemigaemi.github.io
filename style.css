@@ -32,5 +32,6 @@ a:active {text-decoration:none; color:#000000; }
 }
 
 footer {
-        background-color:rgb(255, 0, 0);
+    height:300px;
+    background-color:rgb(255, 0, 0);
 }
