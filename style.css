@@ -8,11 +8,19 @@ h1 {
 }
 
 a:link { text-decoration:none; color:#000000;}
-a:visited { text-decoration:none;color:#000000;}
+a:visited {text-decoration:none;color:#000000;}
 a:active {text-decoration:none; color:#000000; }
 
 
-
+ #1a {
+    background-color:black;
+}
+#2a {
+    background-color:rgb(151, 27, 27);
+}
+#3a {
+    background-color:rgb(112, 62, 62);
+}
 
 footer {
         background-color:rgb(255, 0, 0);
