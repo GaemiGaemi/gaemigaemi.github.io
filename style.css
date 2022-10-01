@@ -14,9 +14,12 @@ a:active {text-decoration:none; color:#000000; }
 
 
 #thank {
+    height:auto;
+    width: auto;
     background-color:black;
     display: block;
     position: relative;
+    text-align: center;
 }
 
 #tha {
@@ -29,7 +32,6 @@ a:active {text-decoration:none; color:#000000; }
     color:white;
 }
 
-#imgg{text-align: center;}
 
 
 
