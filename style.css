@@ -13,11 +13,15 @@ a:active {text-decoration:none; color:#000000; }
 
 
 
-#thank {display: block;
+#thank {
+    background-color:black;
+    display: block;
     position: relative;
 }
 
-#tha {font-size: 140px;
+#tha {
+    color:white;
+    font-size: 140px;
     text-align: center;
 }
 
