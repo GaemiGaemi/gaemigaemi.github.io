@@ -1,6 +1,6 @@
 header {
     height: 250px;
-    background-color:rgb(107, 107, 107);
+    background-color:rgb(255, 255, 255);
 }
 
 h1 {
@@ -13,7 +13,14 @@ a:active {text-decoration:none; color:#000000; }
 
 
 
-#thank {font-size : 120px;}
+#thank {display: block;
+    position: relative;
+    height: 500px;
+    width:auto
+}
+
+#tha {font-size: 140px;
+}
 
 
 
@@ -41,5 +48,5 @@ a:active {text-decoration:none; color:#000000; }
 
 footer {
     height:300px;
-    background-color:rgb(255, 0, 0);
+    background-color:rgb(255, 255, 255);
 }
