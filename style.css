@@ -61,6 +61,7 @@ a:active {text-decoration:none; color:#000000; }
     margin:5px 50px;
     border-style:solid;
     border-color:white;
+    border-radius:3px;
     display:inline-block;
     list-style:none;
     color:white;
