@@ -84,7 +84,7 @@ footer{
 /* djdfdfffsdffsd */
 
 
-@media(min-width:900px){
+@media(max-width:900px){
     .floatnav_B{
         display:block;
         height:80px;
