@@ -26,9 +26,12 @@ a:active {text-decoration:none; color:#000000; }
 }
 
 .floatnav_B{
-    height:100px;
-    background-color:blue;
-    float:right;
+    display:block;
+    position:fixed;
+    height:50px;
+    text-align:center;
+    background-color:red;
+
 }
 
 footer{
