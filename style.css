@@ -29,6 +29,7 @@ a:active {text-decoration:none; color:#000000; }
     display:block;
     position:fixed;
     height:50px;
+    width:100%;
     text-align:center;
     background-color:red;
 
