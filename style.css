@@ -42,22 +42,28 @@ a:active {text-decoration:none; color:#000000; }
 
 .floatnav_B{
     display:block;
-    height:50px;
+    height:80px;
     width:100%;
     text-align:center;
-    background-color:red;
     margin-left:auto;
     margin-right:auto;
     position:fixed;
     bottom:0;
 }
 .floatnav_B li {
+    display:inline-block;
     list-style:none;
 }
 
 .floatnav_B li ul {
+    width: 50px;
+    height: 50px;
+    margin:5px 50px;
+    border-style:solid;
+    border-color:white;
     display:inline-block;
     list-style:none;
+    color:white;
 }
 
 footer{
