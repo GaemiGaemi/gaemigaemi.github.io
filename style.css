@@ -132,11 +132,12 @@ footer{
     display:inline-block;
     text-align:center;
     bottom:0;
+    padding:5px;
 }
 
 #foot_1 {
     height:80px;
-    width:48%;
+    width:47%;
     display:inline-block;
     border-style:solid;
     border-color:white;
@@ -146,7 +147,7 @@ footer{
 
 #foot_2 {
     height:80px;
-    width:48%;
+    width:47%;
     display:inline-block;
     border-style:solid;
     border-color:white;
