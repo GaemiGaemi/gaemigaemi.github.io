@@ -1,7 +1,7 @@
 title: Hamilton
 description: A minimal and beautiful Jekyll theme best for writing and note-taking.
 author: Shangzhi Huang
-avatar: /logo.png
+avatar: https://at1st.org/blog/logo.png
 email: ngzhio@gmail.com
 
 plugins:
@@ -23,7 +23,7 @@ paginate: 10
 # Jekyll
 # ======
 exclude:
-  - scripts/
+  - https://at1st.org/blog/scripts/
   - README.md
   - jekyll-theme-hamilton.gemspec
 
