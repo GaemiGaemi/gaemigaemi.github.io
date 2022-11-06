@@ -42,8 +42,7 @@ social:
 google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
 lang: en
 
- ```yml
-  plugins:
-    - jekyll-remote-theme
-
-  remote_theme: ngzhio/jekyll-theme-hamilton
+        ```yml
+        plugins:
+          - jekyll-theme-hamilton
+        ```
