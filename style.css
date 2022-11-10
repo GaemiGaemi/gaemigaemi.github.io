@@ -72,26 +72,6 @@ h1 {
     border-style:solid;
     border-color:white;
 }
-#boxC {
-    height:500px;
-    display:block;
-    width:100%;
-    background-color:black;
-    display: block;
-    text-align: center;
-    border-style:solid;
-    border-color:white;
-}
-#boxD {
-    height:500px;
-    display:block;
-    width:100%;
-    background-color:black;
-    display: block;
-    text-align: center;
-    border-style:solid;
-    border-color:white;
-}
 
 .floatnav_B{
     display:block;
