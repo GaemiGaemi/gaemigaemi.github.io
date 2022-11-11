@@ -39,6 +39,10 @@ margin:5px;
     margin: 0 auto;
     }
 
+
+/** 2. __________________________________________________________________________________________________**/
+
+
 body{
     width:75%;
     top: 50px;
@@ -58,11 +62,12 @@ h1 {
     height:500px;
     display:block;
     width:100%;
+    color:white;
     background-color:black;
     display: block;
     text-align: center;
     border-style:solid;
-    border-color:rgb(0, 0, 0);
+    border-color:rgb(255, 255, 255);
 }
 #boxB {
     height:500px;
@@ -75,6 +80,7 @@ h1 {
     border-color:rgb(0, 0, 0);
 }
 
+/** 3. -------------------------------------------------------------------------------------------  **/
 
 
 .floatnav_B.hidden {

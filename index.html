@@ -22,17 +22,15 @@
 </header>
 
 <body>
-
-
   <div id="boxA">
-    
+    <script> document.write('뭔데 수ㅢ발'); </script>
+
+
   </div>
   <div id="boxB">
     
   </div>
   
-
-
   <div class="floatnav_B">
     <li>
       <ul><img src="https://github.com/att1st/att1st.github.io/blob/main/img/nav1.png?raw=true"></ul>
@@ -42,30 +40,7 @@
       <ul><a href="https://at1st.org/blog/"><img src="https://github.com/att1st/att1st.github.io/blob/main/img/nav1.png?raw=true"></a></ul>
     </li>
   </div>
-
-  <script>
-    let beforeScrollY = 0;//이전 스크롤 초기값
-    let standard = document.getElementById('floatnav_B').clientHeight;//메뉴 높이
-    let menu = document.getElementById('floatnav_B');
-    window.addEventListener('scroll', scrollDirection);
-    
-    function  scrollDirection(){
-      //메뉴 높이값과 스크롤된 양 비교
-      if(document.documentElement.scrollTop > standard){
-        menu.classList.add('hidden');
-      }else{
-        menu.classList.remove('hidden');
-      }
-      //이전 스크롤된 양과 현재 스크롤된 양 비교하여 방향 감지
-      if(document.documentElement.scrollTop > beforeScrollY){//아래방향
-        menu.classList.add('hidden');
-      }else{
-        menu.classList.remove('hidden');//위방향
-      }
-      beforeScrollY = document.documentElement.scrollTop;//직전 스크롤양 저장
-    }
-  </script>
-    
+   
 </body>
 
 <footer>
