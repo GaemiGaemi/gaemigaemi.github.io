@@ -1,7 +1,7 @@
 $(function () {
     var didScroll;
     var lastScrollTop = 0;
-    var delta = 5; // 이벤트를 발생시킬 스크롤의 이동 범위
+    var delta = 3; // 이벤트를 발생시킬 스크롤의 이동 범위
     var navbarHeight = $("header").outerHeight();
 
     $(window).scroll(function(event){
