@@ -168,4 +168,12 @@ footer{
         list-style:none;
         color:white;
     }
+
+    .floatnav_B img{
+        display:block;
+        height:40px;
+        width:40px;
+        border-radius: 15px;
+    }
+    
 }
