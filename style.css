@@ -212,9 +212,9 @@ footer{
     }
     
     .floatnav_B li ul {
-        width: 40px;
-        height: 40px;
-        margin:5px 7px;
+        width: 45px;
+        height: 45px;
+        margin:5px 6px;
         border-style:solid;
         border-color:white;
         border-radius:15px;
@@ -225,8 +225,8 @@ footer{
 
     .floatnav_B img{
         display:block;
-        height:40px;
-        width:40px;
+        height:45px;
+        width:45px;
         border-radius: 15px;
     }
     
