@@ -13,30 +13,43 @@ h1 {
 }
 
 
-
-
-
 /** 1. __________________________________________________________________________________________________**/
 
 
 body{
-    display:block;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr;
     width:100%;
     background-color:black;
-    text-align:center;
     margin:0 auto;
 }
 
-header { 
+
+
+
+/** 2. __________________________________________________________________________________**/
+
+.container1 {
+    display:grid;
+    grid-template-columns: 14% 70% 14%;
+    grid-template-rows: 50px auto 100px;
+    background-color:rgb(0, 0, 0);
+    grid-template-areas:
+    'a a a'
+    'b c d'
+    'e e e';
+
+}
+    
+#header { 
     grid-area:a;
-    position:fixed;
-    height: 45px;
+    position: sticky;
     width: 100%;
     background-color:rgb(0, 0, 0);
     top:0;
-    z-index:100;
+    z-index:50;
 }
-
 #h_box{
     height: 40px;
     width: 100px;
@@ -52,43 +65,21 @@ header {
     }
 
 
-/** 2. __________________________________________________________________________________**/
-
-.container1 {
-    display:grid;
-    grid-template-columns: 15% 70% 15%;
-    grid-gap:5px;
-    text-align:center;
-    padding-top:45px;
-    background-color:rgb(0, 0, 0);
-    grid-template-areas:
-    'a a a'
-    'b c d'
-    'e e e';
-
-}
-    
-
 #boxA {
     grid-area:b;
-    display:inline-block;
     height:100%;
     width:100%;
     color:white;
     background-color:black;
-   
-    text-align: center;
     border-style:solid;
     border-color:rgb(0, 0, 0);
 }
 #boxB {
     grid-area:d;
-    display:inline-block;
     height:100%;
     width:100%;
     color:white;
     background-color:black;
-    text-align: center;
     border-style:solid;
     border-color:rgb(0, 0, 0);
 }
@@ -97,6 +88,7 @@ header {
 .container2{
     grid-area:c;
     display:grid;
+    padding:100px 5px 5px 0;
     grid-template-columns: repeat(4,1fr);
     grid-auto-rows: minmax(200px, auto);
     grid-gap:5px;
@@ -117,27 +109,21 @@ header {
 /** 3. -------------------------------------------------------------------------------------------  **/
 
 
-.floatnav_B.hidden {
-    opacity: 0;
-    bottom: -100px;
-  }
-
-
-.floatnav_B{
+.nav_B{
     display:block;
     height:80px;
-    width:100%;
+    width:97%;
     text-align:center;
     position:fixed;
     bottom:0;
 
 }
-.floatnav_B li {
+.nav_B li {
     display:inline-block;
     list-style:none;
 }
 
-.floatnav_B li ul {
+.nav_B li ul {
     width: 50px;
     height: 50px;
     margin:5px 50px;
@@ -149,7 +135,7 @@ header {
     color:white;
 }
 
-.floatnav_B img{
+.nav_B img{
     display:block;
     height:50px;
     width:50px;
@@ -167,10 +153,8 @@ footer{
     height:100px;
     width:100%;
     background-color:rgb(0, 0, 0);
-    display:block;
     text-align:center;
     bottom:0;
-
 }
 
 #foot_L {
@@ -206,23 +190,23 @@ footer{
     
    
    
-    .floatnav_B{
+    .nav_B{
         display:block;
         height:80px;
-        width:100%;
+        width:97%;
         text-align:center;
         position:fixed;
         bottom:0;
     }
-    .floatnav_B li {
+    .nav_B li {
         display:inline-block;
         list-style:none;
     }
     
-    .floatnav_B li ul {
+    .nav_B li ul {
         width: 45px;
         height: 45px;
-        margin:5px 6px;
+        margin:5px 7px;
         border-style:solid;
         border-color:white;
         border-radius:15px;
@@ -231,7 +215,7 @@ footer{
         color:white;
     }
 
-    .floatnav_B img{
+    .nav_B img{
         display:block;
         height:45px;
         width:45px;
