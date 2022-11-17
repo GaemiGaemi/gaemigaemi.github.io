@@ -41,13 +41,14 @@ body{
 }
     
 header { 
-    grid-area:a;
     position: sticky;
     width: 100%;
     background-color:rgb(0, 0, 0);
     top:0;
     z-index:50;
+    grid-area:a;
 }
+
 #h_box{
     height: 40px;
     width: 100px;
@@ -87,12 +88,12 @@ header {
     grid-area:c;
     display:grid;
     padding:100px 5px 5px 5px;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(1,1fr);
     grid-auto-rows: minmax(200px, auto);
     grid-gap:5px;
     background-color:rgb(0, 0, 0);
     border-style:solid;
-    border-color:rgb(70, 66, 66);
+    border-color:rgb(0, 0, 0);
 }
 
 .gbox{
