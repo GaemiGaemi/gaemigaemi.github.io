@@ -17,6 +17,7 @@ body{
     grid-template-rows:1fr 100px;
     background-color:black;
     margin:0 auto;
+    background-image: url(https://github.com/At1sts/at1sts.github.io/blob/main/assets/img/body_backg2.jpg?raw=true);
 }
 
 /** 2. __________________________________________________________________________________**/
