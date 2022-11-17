@@ -40,7 +40,7 @@ body{
     'b c d';
 }
     
-#header { 
+header { 
     grid-area:a;
     position: sticky;
     width: 100%;
@@ -145,7 +145,7 @@ body{
 
 /**4. ______________________________________________________________________________________________________**/
 
-#footer{
+footer{
     width:100%;
     background-color:rgb(0, 0, 0);
     text-align:center;
