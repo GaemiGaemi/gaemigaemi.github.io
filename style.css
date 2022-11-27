@@ -12,6 +12,9 @@ a:link {text-decoration:none; color:#000000;}
 a:visited {text-decoration:none;color:#000000;}
 a:active {text-decoration:none; color:#000000; }
 
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 /** 1. __________________________________________________________________________________________________**/
 
@@ -20,7 +23,6 @@ a:active {text-decoration:none; color:#000000; }
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color:black;
 }
 
 
@@ -35,14 +37,25 @@ header {
     align-items: center;
     height:40px;
     width: 100%;
-    border:1px solid white;
-    
+    border:1px solid rgb(0, 0, 0);
+}
+
+.logo {
+    width:70px;
+    height:30px;
+    border:1px solid rgb(0, 0, 0);
+}
+
+.center{
+    width:30px;
+    height:30px;
+    border:1px solid rgb(0, 0, 0);
 }
 
 .topMenu {
     width:30px;
     height:30px;
-    border:1px solid white;
+    border:1px solid rgb(0, 0, 0);
 
 }
 
@@ -54,18 +67,26 @@ header {
     display:flex;
     flex-direction: column;
     align-items: center;
-    border:1px dashed white;
+    border:1px dashed rgb(0, 0, 0);
     width: 100%;
 }
 
 
 .cBox1 {
     display: block;
-    height: 300px;
+    height: 80vh;
     width: 70%;
     margin: 5px;
     background-color: rgb(255, 255, 255);
 }
+
+.cBox__title{
+    font-size:120px;
+    text-align:center;
+    line-height:80vh;
+    font-weight:bold;
+}
+
 .cBox2{
     display: block;
     height: 300px;
@@ -81,13 +102,8 @@ header {
     margin: 5px;
     background-color: rgb(255, 255, 255);
 }
-.cBox5{
-    display: block;
-    height: 300px;
-    width: 70%;
-    margin: 5px;
-    background-color: rgb(255, 255, 255);
-}
+
+
 
 /*____________________________________________________footer____________________________________________________*/
 
@@ -113,11 +129,15 @@ nav li {
     flex-direction:row;
     justify-content: center;
     align-items:center;
+    align-content:center;
     list-style:none;
 }
 
 nav li ul {
+    height:50px;
+    width:50px;
     list-style:none;
+    align-self:center;
     border-style:solid;
     border-color:white;
     border-radius:15px;
@@ -125,9 +145,9 @@ nav li ul {
 }
 
 nav li ul img{
-    height:50px;
-    width:50px;
-    border-radius: 15px;
+    height:100%;
+    width:100%;
+    border-radius: 10px;
 }
 
 
@@ -154,7 +174,7 @@ nav li ul img{
 
 
 
-/* media */
+/**____________________________________________________**/
 
 
 @media(max-width:850px){
