@@ -1,17 +1,37 @@
+:root {
+/*color*/
+--color-1:#bdb9b7;
+--color-2:#efebe9;
+--color-3:#fafafa;
+
+--color-4:rgb(255, 255, 228);
+
+
+/*font*/
+--font-large:3em;
+--font-medium:2em;
+--font-regular:1em;
+--font-small:12px;
+--font-small2:0.5em;
+
+/*etc*/
+--border-radius:15px;
+
+--anime-duration:300ms;
+
+}
+
+
+
+
 * {
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 
-:root{
-    --side-padding: 0 10px;
-    --font-subject: 5em;
-    --font-article: 2em;
-}
-
-a:link {text-decoration:none; color:#000000;}
-a:visited {text-decoration:none;color:#000000;}
+a:link,
+a:visited,
 a:active {text-decoration:none; color:#000000; }
 
 * {
@@ -40,33 +60,32 @@ header {
     height:40px;
     width: 100%;
     border:1px solid rgb(255, 255, 255);
-    background-color: #000000;
 }
 
-.logo {
-    width:70px;
-    height:30px;
-    border:1px solid rgb(255, 255, 255);
-}
-
-.center{
+.header__logo {
     width:30px;
     height:30px;
-    border:1px solid rgb(255, 255, 255);
+    border:1px solid rgb(0, 0, 0);
 }
 
-.topMenu {
+.header__center{
     width:30px;
     height:30px;
-    border:1px solid rgb(255, 255, 255);
+    border:1px solid rgb(0, 0, 0);
+}
 
+.header__menu {
+    width:30px;
+    height:30px;
+    font-size:24px;
+    line-height: 27px;
 }
 
 
 
 /**____________________________________________________**/
 
-.contentBox {
+#ContentBox {
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -78,13 +97,13 @@ header {
 .cBox1 {
     display: block;
     height: 80vh;
-    width: 70%;
+    max-width: 1200px;
+    width: 100%;
     margin: 5px;
-    background-color: rgb(255, 255, 255);
 }
 
 .cBox__title{
-    font-size:8vw;
+    font-size:7vw;
     width:100%;
     text-align:center;
     line-height:80vh;
@@ -108,18 +127,35 @@ header {
 }
 
 
-
 /*____________________________________________________footer____________________________________________________*/
 
 footer {
+    display:flex;
+    justify-content:right;
     border:1px solid white;
     width:100%;
-    height: 100px;
+    height:40px;
+    background-color: var(--color-2);
+}
+.footer__message{
+    line-height:40px;
+    font-weight:600;
+    margin-right:10px;
+}
+
+.footer__links{
+    font-size:20px;
+    text-align: right;
+    margin-right:10px;
+}
+.footer__links i{
+    padding:0 2px;
+    line-height: 40px;
 }
 
 
 
-/**____________________________________________________**/
+/**_______________NAV______________________**/
 
 
 nav{
@@ -127,6 +163,7 @@ nav{
     padding:0;
     position:fixed;
     bottom:0;
+    display:none;
 }
 nav li {
     display:flex;
@@ -136,7 +173,6 @@ nav li {
     align-content:center;
     list-style:none;
 }
-
 nav li ul {
     height:50px;
     width:50px;
@@ -147,7 +183,6 @@ nav li ul {
     border-radius:15px;
     margin : 0 20px;
 }
-
 nav li ul img{
     height:100%;
     width:100%;
@@ -181,44 +216,14 @@ nav li ul img{
 /**____________________________________________________**/
 
 
-@media(max-width:850px){
+@media screen and (max-width:1024px){
     .flexbox{
         text-align:center;
         background-color:rgb(0, 0, 0);
         border-style:solid;
     }
-   
-   
-    nav{
-        display:block;
-        height:80px;
-        width:97%;
-        text-align:center;
-        position:fixed;
-        bottom:0;
-    }
-    nav li {
-        display:inline-block;
-        list-style:none;
-    }
-    
-    nav li ul {
-        width: 45px;
-        height: 45px;
-        margin:5px 7px;
-        border-style:solid;
-        border-color:white;
-        border-radius:15px;
-        display:inline-block;
-        list-style:none;
-        color:white;
-    }
 
-    nav img{
-        display:block;
-        height:45px;
-        width:45px;
-        border-radius: 15px;
+    .cBox__title{
+        font-size:12vw;
     }
-    
 }
