@@ -220,14 +220,11 @@ nav li ul img{
 /**____________________________________________________**/
 
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:768px){
     .flexbox{
         text-align:center;
         background-color:rgb(0, 0, 0);
         border-style:solid;
     }
 
-    .cBox__title{
-        font-size: 70px;
-    }
 }
