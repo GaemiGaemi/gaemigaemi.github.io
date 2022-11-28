@@ -3,9 +3,7 @@
 --color-1:#bdb9b7;
 --color-2:#efebe9;
 --color-3:#fafafa;
-
---color-4:rgb(255, 255, 228);
-
+--color-LightYellow:rgb(255, 255, 228);
 
 /*font*/
 --font-large:3em;
@@ -16,14 +14,11 @@
 
 /*etc*/
 --border-radius:15px;
-
 --anime-duration:300ms;
-
+--side-padding:0 10px;
 }
 
-
-
-
+/* ▷▷▷▷▷▷▷▷▷▷▷▷▷▷COMMON◁◁◁◁◁◁◁◁◁◁◁◁◁ */
 * {
     margin:0;
     padding:0;
@@ -38,7 +33,7 @@ a:active {text-decoration:none; color:#000000; }
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-/** 1. __________________________________________________________________________________________________**/
+/* ▷▷▷▷▷▷▷▷▷▷▷▷▷▷WRAP◁◁◁◁◁◁◁◁◁◁◁◁◁ */
 
 .wrap{
     width:100%;
@@ -48,7 +43,7 @@ a:active {text-decoration:none; color:#000000; }
 }
 
 
-/** 2. __________________________________________________________________________________**/
+/* ▷▷▷▷▷▷▷▷▷▷▷▷▷▷HEADER◁◁◁◁◁◁◁◁◁◁◁◁◁ */
 
 header {
     position: sticky;
@@ -65,7 +60,14 @@ header {
 .header__logo {
     width:30px;
     height:30px;
-    border:1px solid rgb(0, 0, 0);
+    border:3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.header__img {
+    width:100%;
+    border-radius: 50%;
+
 }
 
 .header__center{
@@ -78,7 +80,8 @@ header {
     width:30px;
     height:30px;
     font-size:24px;
-    line-height: 27px;
+    padding-top: 3px;
+
 }
 
 
@@ -112,18 +115,18 @@ header {
 
 .cBox2{
     display: block;
-    height: 300px;
-    width: 70%;
+    height: 80vh;
+    max-width: 1200px;
+    width: 100%;
     margin: 5px;
-    background-color: rgb(255, 255, 255);
 }
 
 .cBox3{
     display: block;
-    height: 300px;
-    width: 70%;
+    height: 80vh;
+    max-width: 1200px;
+    width: 100%;
     margin: 5px;
-    background-color: rgb(255, 255, 255);
 }
 
 
@@ -225,6 +228,6 @@ nav li ul img{
     }
 
     .cBox__title{
-        font-size:12vw;
+        font-size: 70px;
     }
 }
