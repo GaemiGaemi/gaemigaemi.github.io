@@ -116,7 +116,7 @@ header {
 }
 
 .cBox2{
-    display: block;
+    display: flex;
     height: 80vh;
     max-width: 1200px;
     width: 100%;
