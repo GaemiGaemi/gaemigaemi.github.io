@@ -125,6 +125,7 @@ header {
 }
 
 .cBox2_img{
+    display:block;
     height:500px;
     width: 500px;
 }
