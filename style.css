@@ -124,7 +124,11 @@ header {
 }
 
 .cBox2_img{
-    height:8vh
+    height:8vh;
+    width: 8vh;
+    text-align: center;
+
+    
 }
 
 
