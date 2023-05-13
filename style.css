@@ -124,9 +124,9 @@ header {
 }
 
 .cBox2_img{
+    align-items: center;
     height:500px;
     width: 500px;
-    text-align: center;
 }
 
 
