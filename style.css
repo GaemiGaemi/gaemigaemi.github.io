@@ -123,6 +123,11 @@ header {
     margin: 5px;
 }
 
+.cBox2_img{
+    height:8vh
+}
+
+
 .cBox3{
     display: block;
     height: 80vh;
