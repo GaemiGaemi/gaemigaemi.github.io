@@ -237,7 +237,6 @@ nav li ul img{
     }
 
 
-
     nav li ul {
         height:35px;
         width:35px;
@@ -247,6 +246,12 @@ nav li ul img{
         width:35px;
     }
     
+    
+    .cBox2_1{
+        display:block;
+        height:250px;
+        width: 250px;
+    }
     
 
 }
