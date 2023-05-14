@@ -111,7 +111,7 @@ header {
     font-size:5vw;
     width:100%;
     text-align:center;
-    line-height:40vh;
+    line-height:20vh;
     font-weight:bold;
 }
 
@@ -127,12 +127,13 @@ header {
 
 .cBox2_1{
     display:block;
-    height:500px;
-    width: 500px;
+    height:700px;
+    width: 700px;
 }
 .cBox2_1_img{
     height:50%;
     width:50%;
+    text-align: center;
 }
 
 
@@ -249,8 +250,8 @@ nav li ul img{
     
     .cBox2_1{
         display:block;
-        height:250px;
-        width: 250px;
+        height:400px;
+        width: 400px;
     }
     
 
