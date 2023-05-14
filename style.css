@@ -127,13 +127,13 @@ header {
 
 .cBox2_1{
     display:block;
+    text-align: center;
     height:700px;
     width: 700px;
 }
 .cBox2_1_img{
     height:50%;
     width:50%;
-    text-align: center;
 }
 
 
@@ -250,6 +250,7 @@ nav li ul img{
     
     .cBox2_1{
         display:block;
+        text-align: center;
         height:400px;
         width: 400px;
     }
