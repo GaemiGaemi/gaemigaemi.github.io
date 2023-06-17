@@ -111,10 +111,12 @@ header {
 .cBox1_1{
     display:block;
     text-align: center;
+    height: auto;
     width: 1000px;
 }
 
 .cBox1_1_img{
+    height:auto;
     width: 100%;
 }
 
@@ -265,6 +267,7 @@ nav li ul img{
     .cBox1_1{
         display:block;
         text-align: center;
+        height:auto;
         width: 500px;
     }
     
