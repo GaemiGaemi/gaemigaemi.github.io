@@ -100,7 +100,8 @@ header {
 
 
 .cBox1 {
-    display: block;
+    display: flex;
+    align-items: center;
     height: 60vh;
     max-width: 1200px;
     width: 100%;
