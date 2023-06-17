@@ -106,6 +106,12 @@ header {
     width: 100%;
     margin: 5px;
 }
+.cBox2_1{
+    display:block;
+    text-align: center;
+    width: 1000px;
+}
+
 
 .cBox__title{
     font-size:5vw;
@@ -114,6 +120,7 @@ header {
     line-height:10vh;
     font-weight:bold;
 }
+
 
 .cBox2{
     display: flex;
