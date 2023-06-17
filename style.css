@@ -106,13 +106,13 @@ header {
     width: 100%;
     margin: 5px;
 }
-.cBox2_1{
+.cBox1_1_img{
     display:block;
     text-align: center;
     width: 1000px;
 }
 
-
+/*
 .cBox__title{
     font-size:5vw;
     width:100%;
@@ -120,6 +120,7 @@ header {
     line-height:10vh;
     font-weight:bold;
 }
+*/
 
 
 .cBox2{
