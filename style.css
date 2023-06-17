@@ -106,10 +106,15 @@ header {
     width: 100%;
     margin: 5px;
 }
-.cBox1_1_img{
+
+.cBox1_1{
     display:block;
     text-align: center;
     width: 1000px;
+}
+
+.cBox1_1_img{
+    width: 100%;
 }
 
 /*
@@ -255,6 +260,11 @@ nav li ul img{
     nav li ul img{
         height:35px;
         width:35px;
+    }
+    .cBox1_1{
+        display:block;
+        text-align: center;
+        width: 500px;
     }
     
     
