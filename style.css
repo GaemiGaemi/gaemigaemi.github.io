@@ -101,6 +101,7 @@ header {
 
 .cBox1 {
     display: flex;
+    flex-direction: row;
     align-items: center;
     height: 60vh;
     max-width: 1200px;
