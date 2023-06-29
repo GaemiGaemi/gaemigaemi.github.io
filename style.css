@@ -161,6 +161,16 @@ header {
     width: 100%;
     margin: 5px;  
 }
+.cBox3_1{
+    display:block;
+    text-align: center;
+    height:500px;
+    width: 500px;
+}
+.cBox3_1_img{
+    height:100%;
+    width:100%;
+}
 
 
 /*____________________________________________________footer____________________________________________________*/
@@ -274,6 +284,12 @@ nav li ul img{
     
     
     .cBox2_1{
+        display:block;
+        text-align: center;
+        height:400px;
+        width: 400px;
+    }
+    .cBox3_1{
         display:block;
         text-align: center;
         height:400px;
