@@ -95,7 +95,7 @@ header {
     flex-direction:row;
     align-items: center;
     /* border:1px dashed rgb(0, 0, 0);*/
-    height:1200px;
+    height:auto;
     width: 100%;
 }
 
@@ -105,7 +105,7 @@ header {
     flex-direction: column;
     align-items: center;
     max-width: 1200px;
-    height:600px;
+    height:auto;
     width: 100%;
     margin: 5px;
 }
@@ -137,7 +137,7 @@ header {
     display: flex;
     flex-direction:column;
     align-items: center;
-    height: 500px;
+    height: auto;
     max-width: 1200px;
     width: 100%;
     margin: 5px;
@@ -146,7 +146,7 @@ header {
 .cBox2_1{
     display:block;
     text-align: center;
-    height:500px;
+    height:auto;
     width: 500px;
 }
 .cBox2_1_img{
@@ -159,7 +159,7 @@ header {
     display: flex;
     flex-direction:column;
     align-items: center;
-    height: 500px;
+    height: auto;
     max-width: 1200px;
     width: 100%;
     margin: 5px;  
@@ -167,7 +167,7 @@ header {
 .cBox3_1{
     display:block;
     text-align: center;
-    height:500px;
+    height:auto;
     width: 500px;
 }
 .cBox3_1_img{
@@ -289,13 +289,13 @@ nav li ul img{
     .cBox2_1{
         display:block;
         text-align: center;
-        height:400px;
+        height:auto;
         width: 400px;
     }
     .cBox3_1{
         display:block;
         text-align: center;
-        height:400px;
+        height:auto;
         width: 400px;
     }
     
