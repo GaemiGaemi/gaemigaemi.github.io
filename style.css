@@ -39,9 +39,9 @@ a:active {text-decoration:none; color:#000000; }
 .wrap{
     width:100%;
     display:flex;
-    align-content: center;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 
