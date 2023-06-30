@@ -103,12 +103,12 @@ header {
 
 .cBox1 {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     max-width: 1195px;
     height:auto;
     width: 100%;
     margin: 5px;
-    text-align: center;
 }
 
 .cBox1_1{
