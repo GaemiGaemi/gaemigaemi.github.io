@@ -168,11 +168,11 @@ header {
     display:block;
     text-align: center;
     height:auto;
-    max-width: 500px;
     width: 100%;
 }
 .cBox3_1_img{
     height:auto;
+    max-width: 500px;
     width:100%;
 }
 
