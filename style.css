@@ -114,6 +114,7 @@ header {
     display:block;
     text-align: center;
     height: auto;
+    max-width: 1000px;
     width: 100%;
 }
 
@@ -147,11 +148,12 @@ header {
     display:block;
     text-align: center;
     height:auto;
+    max-width: 500px;
     width: 100%;
 }
 .cBox2_1_img{
     height:auto;
-    width:500px;
+    width:100%;
 }
 
 
@@ -168,11 +170,12 @@ header {
     display:block;
     text-align: center;
     height:auto;
+    max-width: 500px;
     width: 100%;
 }
 .cBox3_1_img{
     height:auto;
-    width:500px;
+    width:100%;
 }
 
 
