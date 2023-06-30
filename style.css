@@ -95,7 +95,6 @@ header {
     display:flex;
     flex-direction:column;
     justify-content: center;
-    align-items: center;
     /* border:1px dashed rgb(0, 0, 0);*/
     height:100%;
     width: 100%;
@@ -109,6 +108,7 @@ header {
     height:auto;
     width: 100%;
     margin: 5px;
+    text-align: center;
 }
 
 .cBox1_1{
@@ -143,11 +143,11 @@ header {
     max-width: 1195px;
     width: 100%;
     margin: 5px;
+    text-align: center;
 }
 
 .cBox2_1{
     display:block;
-    text-align: center;
     height:auto;
     max-width: 500px;
     width: 100%;
@@ -166,10 +166,10 @@ header {
     max-width: 1195px;
     width: 100%;
     margin: 5px;  
+    text-align: center;
 }
 .cBox3_1{
     display:block;
-    text-align: center;
     height:auto;
     max-width: 500px;
     width: 100%;
