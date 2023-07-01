@@ -37,6 +37,7 @@ a:active {text-decoration:none; color:#000000; }
 /* ▷▷▷▷▷▷▷▷▷▷▷▷▷▷WRAP◁◁◁◁◁◁◁◁◁◁◁◁◁ */
 
 .wrap{
+    height:100%;
     width:100%;
     display:flex;
     flex-direction: column;
@@ -118,6 +119,7 @@ header {
 }
 
 .cBox1_1_img{
+    text-align: center;
     height:auto;
     max-width: 1000px;
     width: 100%;
@@ -150,6 +152,7 @@ header {
     width: 100%;
 }
 .cBox2_1_img{
+    text-align: center;
     height:auto;
     max-width: 500px;
     width:100%;
@@ -171,6 +174,7 @@ header {
     width: 100%;
 }
 .cBox3_1_img{
+    text-align: center;
     height:auto;
     max-width: 500px;
     width:100%;
