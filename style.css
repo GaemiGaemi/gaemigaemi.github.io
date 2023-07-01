@@ -37,7 +37,7 @@ a:active {text-decoration:none; color:#000000; }
 /* ▷▷▷▷▷▷▷▷▷▷▷▷▷▷WRAP◁◁◁◁◁◁◁◁◁◁◁◁◁ */
 
 .wrap{
-    height:100%;
+    height:80vh;
     width:100%;
     display:flex;
     flex-direction: column;
