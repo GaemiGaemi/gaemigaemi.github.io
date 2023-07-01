@@ -271,23 +271,15 @@ nav li ul img{
         width:35px;
     }
     .cBox1_1_img{
-        display:block;
-        text-align: center;
-        height:auto;
-        width: 400px;
+        max-width: 400px;
     }
     
     .cBox2_1_img{
-        display:block;
-        text-align: center;
-        height:auto;
-        width: 400px;
+        max-width: 400px;
     }
     .cBox3_1_img{
-        display:block;
-        text-align: center;
-        height:auto;
-        width: 400px;
+
+        max-width: 400px;
     }
     
 
