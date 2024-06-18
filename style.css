@@ -206,7 +206,7 @@ header {
     width: 80%;
     max-width: 800px;
     height: 0;
-    padding-bottom: 56.25%; /* 16:9 비율을 유지하기 위한 패딩 */
+    aspect-ratio: 16 / 9; 
 }
 
 .YouTube_Box iframe {
