@@ -206,6 +206,7 @@ header {
     width: 80%;
     max-width: 800px;
     height:auto;
+    max-height: 400px;
 }
 
 .YouTube_Box iframe {
