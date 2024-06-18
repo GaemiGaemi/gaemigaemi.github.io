@@ -284,10 +284,6 @@ nav li ul img{
 
 @media screen and (max-width:768px){
 
-    #slideshow {
-        max-width: 400px;
-    } 
-        
     nav li ul {
         height:35px;
         width:35px;
@@ -308,5 +304,8 @@ nav li ul img{
         max-width: 400px;
     }
     
+    #slideshow {
+        max-width: 400px;
+    } 
 
 }
