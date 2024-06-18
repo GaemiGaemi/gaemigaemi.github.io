@@ -71,13 +71,12 @@ header {
 .header__img {
     width:100%;
     border-radius: 50%;
-
 }
 
 .header__center{
     width:30px;
     height:30px;
-    border:4px solid rgb(255, 255, 255);
+    border:4px solid rgb(0, 0, 0);
     border-radius: 50%;
 }
 
@@ -86,7 +85,6 @@ header {
     height:30px;
     font-size:24px;
     padding-top: 3px;
-
 }
 
 
@@ -274,10 +272,6 @@ nav li ul img{
     border:2px solid white;
     border-radius:15px;
 }
-
-
-
-
 
 
 
