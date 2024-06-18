@@ -26,7 +26,6 @@
     padding:0;
     box-sizing:border-box;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #000000;
 }
 
 a:link,
@@ -42,6 +41,7 @@ a:active {text-decoration:none; color:#000000; }
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #000000;
 }
 
 
