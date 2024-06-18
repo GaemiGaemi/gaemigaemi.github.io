@@ -203,8 +203,8 @@ header {
 
 .YouTube_Media{
     display:block;
-    height:300px;
-    max-width:500px;
+    height:500px;
+    max-width:600px;
     width:100%;
 }
 .YouTube_Media iframe {
