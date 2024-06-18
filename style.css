@@ -137,25 +137,23 @@ header {
 }
 */
 #slideshow {
-    width: 800px;
-    height: 600px;
+    display:block;
+    max-width: 800px;
+    width:100%;
+    height: auto;
     overflow: hidden;
     position: relative;
     margin: 0 auto;
 }
 
 #slideshow img {
-    height:100%;
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
+    height:auto;
+    display:none;
 }
 
 #slideshow img.active {
-    opacity: 1;
+    display:block;
 }
 
 
@@ -200,6 +198,13 @@ header {
     text-align: center;
     height:auto;
     max-width: 500px;
+    width:100%;
+}
+
+.YouTube_Media{
+    display:block;
+    height:auto;
+    max-width:500px;
     width:100%;
 }
 
@@ -304,12 +309,10 @@ nav li ul img{
     }
 
     #slideshow {
-        width: 400px;
-        height:250px;
+        max-width:400px;
     }
 
     .YouTube_Media {
-        height:250px;
         width:400px;
     }
 

@@ -13,14 +13,21 @@ window.addEventListener('scroll',()=>{
 });
 
 
+document.addEventListener('DOMContentLoaded', function() {
+  const slides = document.querySelectorAll('#slideshow img');
+  let currentIndex = 0;
 
-let images = document.querySelectorAll('#slideshow img');
-let currentIndex = 0;
+  function showSlide(index) {
+      slides.forEach((slide, i) => {
+          slide.classList.toggle('active', i === index);
+      });
+  }
 
-function showNextImage() {
-    images[currentIndex].classList.remove('active');
-    currentIndex = (currentIndex + 1) % images.length;
-    images[currentIndex].classList.add('active');
-}
+  function nextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+  }
 
-setInterval(showNextImage, 3000); // 3초마다 이미지 전환
+  showSlide(currentIndex);
+  setInterval(nextSlide, 3000); // 3초마다 슬라이드 변경
+});
