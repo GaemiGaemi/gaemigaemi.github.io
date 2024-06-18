@@ -138,7 +138,8 @@ header {
 */
 #slideshow {
     display: block;
-    width: 800px;
+    max-width: 800px;
+    width:100%;
     height: auto;
     overflow: hidden;
     position: relative;
@@ -302,9 +303,11 @@ nav li ul img{
 
         max-width: 400px;
     }
-    
+
     #slideshow {
-        width: 400px;
-    } 
+        max-width: 400px;
+    }
+
+    
 
 }
