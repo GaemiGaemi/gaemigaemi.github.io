@@ -216,7 +216,7 @@ footer {
     width:100%;
     height:40px;
     background-color: var(--color-4);
-    z-index: 9;
+    z-index: 8;
 }
 .footer__message{
     line-height:40px;
@@ -247,7 +247,7 @@ nav{
     bottom:0;
     transition:all 2s ease-in-out;
     transform:translateY(0);
-    z-index: 8;
+    z-index: 9;
 }
 
 .nav--up{
