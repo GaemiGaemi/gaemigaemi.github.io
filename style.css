@@ -137,9 +137,8 @@ header {
 }
 */
 #slideshow {
-    display: block;
     max-width: 800px;
-    height: auto;
+    height: 600px;
     width:100%;
     overflow: hidden;
     position: relative;
