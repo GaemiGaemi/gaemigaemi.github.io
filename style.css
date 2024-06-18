@@ -3,6 +3,7 @@
 --color-1:#bdb9b7;
 --color-2:#efebe9;
 --color-3:#fafafa;
+--color-4:#414141;
 --color-LightYellow:rgb(255, 255, 228);
 
 /*font*/
@@ -24,15 +25,13 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 a:link,
 a:visited,
 a:active {text-decoration:none; color:#000000; }
-
-* {
-    font-family: 'Source Sans Pro', sans-serif;
-}
+   
 
 /* ▷▷▷▷▷▷▷▷▷▷▷▷▷▷WRAP◁◁◁◁◁◁◁◁◁◁◁◁◁ */
 
@@ -57,7 +56,8 @@ header {
     align-items: center;
     height:40px;
     width: 100%;
-    background-color: var(--color-2);
+    background-color: var(--color-4);
+    z-index: 10;
     /*border:1px solid rgb(255, 255, 255);*/
 }
 
@@ -99,6 +99,7 @@ header {
     flex-direction:column;
     justify-content:space-between;
     align-items: center;
+    z-index: 8;
     /*border:1px dashed rgb(0, 0, 0);*/
 }
 
@@ -214,7 +215,7 @@ footer {
     border:1px solid white;
     width:100%;
     height:40px;
-    background-color: var(--color-2);
+    background-color: var(--color-4);
 }
 .footer__message{
     line-height:40px;
