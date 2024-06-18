@@ -207,6 +207,11 @@ header {
     max-width:500px;
     width:100%;
 }
+.YouTube_Media iframe {
+    width:100%;
+    height:auto;
+    text-align: center;
+}
 
 
 /*____________________________________________________footer____________________________________________________*/
