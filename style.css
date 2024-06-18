@@ -139,16 +139,16 @@ header {
 #slideshow {
     display: block;
     max-width: 800px;
-    width:100%;
     height: auto;
+    width:100%;
     overflow: hidden;
     position: relative;
     margin: 0 auto;
 }
 
 #slideshow img {
+    height:auto;
     width: 100%;
-    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
