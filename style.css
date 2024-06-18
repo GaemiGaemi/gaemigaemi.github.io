@@ -203,7 +203,7 @@ header {
 
 .YouTube_Media{
     display:block;
-    height:auto;
+    height:300px;
     max-width:500px;
     width:100%;
 }
