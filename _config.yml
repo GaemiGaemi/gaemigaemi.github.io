@@ -1,0 +1,19 @@
+collections:
+  elements:
+    output: true
+    permalink: /elements/:title/
+    directory: "_elements"  
+
+
+
+
+title: 개미굴
+description: GeamiGeami
+
+
+url: "https://gaemigaemi.github.io" 
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
