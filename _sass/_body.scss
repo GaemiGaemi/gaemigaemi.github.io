@@ -11,7 +11,6 @@
     /*border:1px dashed rgb(0, 0, 0);*/
 }
 
-
 .box_notice {
     padding-top: 5vh;
     height: 400px;
@@ -19,39 +18,7 @@
     background-color: red;
 
 }
-/*
-.cBox1 {
-    display: block;
-    text-align: center;
-    max-width: 1200px;
-    height:auto;
-    width: 100%;
-    margin: 5px;
-}
 
-.cBox1_1{
-    display:block;
-    text-align: center;
-    height: auto;
-    width: 100%;
-}
-
-.cBox1_1_img{
-    text-align: center;
-    height:auto;
-    max-width: 1000px;
-    width: 100%;
-}
-*/
-/*
-.cBox__title{
-    font-size:5vw;
-    width:100%;
-    text-align:center;
-    line-height:10vh;
-    font-weight:bold;
-}
-*/
 #slideshow {
     display:block;
     max-width: 800px;
@@ -72,50 +39,6 @@
     display:block;
 }
 
-
-.cBox2{
-    display: block;
-    text-align: center;
-    height: auto;
-    max-width: 1200px;
-    width: 100%;
-    margin: 5px;
-}
-
-.cBox2_1{
-    display:block;
-    text-align: center;
-    height:auto;
-    width: 100%;
-}
-.cBox2_1_img{
-    text-align: center;
-    height:auto;
-    max-width: 500px;
-    width:100%;
-}
-
-
-.cBox3{  
-    display: block;
-    text-align: center;
-    height: auto;
-    max-width: 1200px;
-    width: 100%;
-    margin: 5px;  
-}
-.cBox3_1{
-    display:block;
-    text-align: center;
-    height:auto;
-    width: 100%;
-}
-.cBox3_1_img{
-    text-align: center;
-    height:auto;
-    max-width: 500px;
-    width:100%;
-}
 
 .YouTube_Box{
     position: relative;
@@ -164,48 +87,6 @@ footer {
     line-height: 40px;
 }
 
-
-
-
-/**_______________NAV______________________**/
-
-
-nav{
-    width:100%;
-    padding:0;
-    position:fixed;
-    bottom:0;
-    transition:all 2s ease-in-out;
-    transform:translateY(0);
-    z-index: 9;
-}
-
-.nav--up{
-    transform:translateY(200px);
-}
-
-nav li {
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
-    align-items:center;
-    align-content:center;
-    list-style:none;
-
-}
-nav li ul {
-    height:50px;
-    width:50px;
-    list-style:none;
-    align-self:center;
-    margin:1% 2%;
-}
-nav li ul img{
-    height:50px;
-    width:50px;
-    border:2px solid white;
-    border-radius:15px;
-}
 
 
 
