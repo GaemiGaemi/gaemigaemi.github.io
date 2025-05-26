@@ -105,8 +105,8 @@ header {
 
 
 .box_notice {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 80vw;
     background-color: red;
 
 }
