@@ -103,6 +103,13 @@ header {
     /*border:1px dashed rgb(0, 0, 0);*/
 }
 
+
+.box_notice {
+    height: 500px;
+    width: 500px;
+    background-color: red;
+
+}
 /*
 .cBox1 {
     display: block;
