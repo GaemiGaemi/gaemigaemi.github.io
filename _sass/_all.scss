@@ -1,0 +1,46 @@
+:root {
+/*color*/
+--color-1:#bdb9b7;
+--color-2:#efebe9;
+--color-3:#fafafa;
+--color-4:#414141;
+--color-LightYellow:rgb(255, 255, 228);
+
+/*font*/
+--font-large:3em;
+--font-medium:2em;
+--font-regular:1em;
+--font-small:12px;
+--font-small2:0.5em;
+--font-mobile-max:
+
+/*etc*/
+--border-radius:15px;
+--anime-duration:300ms;
+--side-padding:0 10px;
+}
+
+/* ▷▷▷▷▷▷▷▷▷▷▷▷▷▷COMMON◁◁◁◁◁◁◁◁◁◁◁◁◁ */
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a:link,
+a:visited,
+a:active {text-decoration:none; color:#000000; }
+   
+
+/* ▷▷▷▷▷▷▷▷▷▷▷▷▷▷WRAP◁◁◁◁◁◁◁◁◁◁◁◁◁ */
+
+.wrap{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    flex-direction: column;
+    background-color: #000000;
+}
+

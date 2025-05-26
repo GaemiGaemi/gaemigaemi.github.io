@@ -1,95 +1,3 @@
-:root {
-/*color*/
---color-1:#bdb9b7;
---color-2:#efebe9;
---color-3:#fafafa;
---color-4:#414141;
---color-LightYellow:rgb(255, 255, 228);
-
-/*font*/
---font-large:3em;
---font-medium:2em;
---font-regular:1em;
---font-small:12px;
---font-small2:0.5em;
---font-mobile-max:
-
-/*etc*/
---border-radius:15px;
---anime-duration:300ms;
---side-padding:0 10px;
-}
-
-/* ▷▷▷▷▷▷▷▷▷▷▷▷▷▷COMMON◁◁◁◁◁◁◁◁◁◁◁◁◁ */
-* {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-a:link,
-a:visited,
-a:active {text-decoration:none; color:#000000; }
-   
-
-/* ▷▷▷▷▷▷▷▷▷▷▷▷▷▷WRAP◁◁◁◁◁◁◁◁◁◁◁◁◁ */
-
-.wrap{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width:100%;
-    flex-direction: column;
-    background-color: #000000;
-}
-
-
-/* ▷▷▷▷▷▷▷▷▷▷▷▷▷▷HEADER◁◁◁◁◁◁◁◁◁◁◁◁◁ */
-
-header {
-    position: sticky;
-    top:0;
-    display:flex;
-    justify-content: space-between;
-    padding:var(--side-padding);
-    align-items: center;
-    height:40px;
-    width: 100%;
-    background-color: var(--color-4);
-    z-index: 10;
-    /*border:1px solid rgb(255, 255, 255);*/
-}
-
-.header__logo {
-    width:30px;
-    height:30px;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 50%;
-    background-color: white;
-}
-
-.header__img {
-    width:100%;
-    border-radius: 50%;
-}
-
-.header__center{
-    width:30px;
-    height:30px;
-    border:4px solid rgb(255, 255, 255);
-    border-radius: 50%;
-}
-
-.header__menu {
-    width:30px;
-    height:30px;
-    font-size:24px;
-    padding-top: 3px;
-}
-
-
-
 /**____________________________________________________**/
 
 #ContentBox {
@@ -105,6 +13,7 @@ header {
 
 
 .box_notice {
+    padding-top: 5vh;
     height: 400px;
     width: 80vw;
     background-color: red;
