@@ -1,9 +1,8 @@
 collections:
-  elements:
+  post:
     output: true
-    permalink: /elements/:title/
-    directory: "_elements"  
-
+    permalink: /post/:title/
+    directory: "_post"  
 
 
 
