@@ -63,7 +63,8 @@
 .sub_box {
     position:relative;
     height:50px;
-    width:70vw;
+    width:100%;
+    max-width: 800px;
     background-color: #fafafa;
     text-align: center;
     padding: 5px 0;
