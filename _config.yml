@@ -1,8 +1,8 @@
 collections:
-  post:
+  default:
     output: true
-    permalink: /post/:title/
-    directory: "_post"  
+    permalink: /default/:title/
+    directory: "_default"  
 
 
 
