@@ -15,9 +15,9 @@
 .box_notice {
     padding-top: 20vh;
     padding-bottom: 2vh;
-    width:100%;
-    height:100%;
-    max-width: 80vw;
+    width:80vw;
+    max-width: 1000px;
+    min-width: 400px;
     background-image: url('/assets/img/bg_notice.png');
     background-size: cover;
 
@@ -104,17 +104,6 @@ footer {
     nav li ul img{
         height:35px;
         width:35px;
-    }
-    .cBox1_1_img{
-        max-width: 400px;
-    }
-    
-    .cBox2_1_img{
-        max-width: 400px;
-    }
-    .cBox3_1_img{
-
-        max-width: 400px;
     }
 
     #slideshow {
