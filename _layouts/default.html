@@ -2,7 +2,7 @@
 <html>
   <head>
     {% include head.html %}
-    {% include bottom_nav.html %}
+    {% include nav_bottom.html %}
   </head>
 <!--<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false" onkeydown ="return false">-->
 
@@ -45,6 +45,19 @@
       <div class="YouTube_Box">
         <iframe src="https://www.youtube.com/embed/by_gtrEkDsw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+
+
+      <div class="sub_box">
+        <h1> 최신 링크 1</h1>
+      </div>
+      <div class="sub_box">
+        <h1> 최신 링크 1</h1>
+      </div>
+      <div class="sub_box">
+        <h1> 최신 링크 1</h1>
+      </div>
+ 
+ 
     </section>
 
     <!--FOOTER-->
@@ -63,8 +76,8 @@
 {% include floating-ad.html %}
 {% endif %}
 
-{% if page.bottom_nav %}
-{% include bottom_nav.html %}
+{% if page.nav_bottom %}
+{% include nav_bottom.html %}
 {% endif %}
 </body>
 </html>
