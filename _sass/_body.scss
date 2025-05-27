@@ -1,6 +1,7 @@
 /**____________________________________________________**/
 
 #ContentBox {
+    height:100%;
     width: 100%;
     display:flex;
     flex-direction:column;
@@ -22,7 +23,6 @@
     background-image: url('/assets/img/bg_notice.png');
     background-size: cover;
     background-position: center;
-
 }
 
 #slideshow {
@@ -49,9 +49,7 @@
 .YouTube_Box{
     width: 80%;
     max-width: 800px;
-    height:auto;
     max-height: 400px;
-    margin: auto;
 }
 
 .YouTube_Box iframe {
@@ -63,7 +61,6 @@
 
 .sub_box {
     position:relative;
-    display:block;
     height:50px;
     width:70vw;
     background-color: #fafafa;
