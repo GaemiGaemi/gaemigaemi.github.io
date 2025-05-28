@@ -28,6 +28,7 @@
 #slideshow {
     display:block;
     max-width: 800px;
+    min-width: 400px;
     width:100%;
     height: auto;
     overflow: hidden;
@@ -115,9 +116,5 @@ footer {
     nav li ul img{
         height:35px;
         width:35px;
-    }
-
-    #slideshow {
-        max-width:400px;
     }
 }
