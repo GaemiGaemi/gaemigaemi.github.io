@@ -14,32 +14,24 @@
 
 
 .box_notice {
-    padding-top: 3vh;
-    display:flex;
-    flex-wrap:wrap; 
-    margin:0 auto;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
     width:80%;
     max-width: 1000px;
     min-width: 400px;
-    aspect-ratio: 16 / 12; 
+    aspect-ratio: 4 / 3; 
     background-image: url('/assets/img/bg_notice.png');
     background-size: cover;
     background-position: center;
-    justify-content:center;
-    align-content:space-evenly;
-    align-items: center;
     gap: 10px;
 }
 
 .box1 {
-    flex:0 0 calc(40% - 10px); 
+    position:relative;
     aspect-ratio: 16 / 12; 
     max-height: 260px;
     border-radius: 25px;
-    background-color: antiquewhite;
-    display:flex;             /* 안쪽 글씨 세로 가운데 */
-    align-items:center;
-    justify-content:center;
+    background-color: rgb(0, 0, 0);
 }
 
 
