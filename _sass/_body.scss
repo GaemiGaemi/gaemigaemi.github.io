@@ -19,8 +19,8 @@
     grid-template-columns:repeat(2,1fr);
     grid-template-areas:
     "empty  empty"
-    "box1  box1"
-    "box1  box1";
+    "box1  box2"
+    "box3  box4";
     width:80%;
     max-width: 1000px;
     min-width: 400px;
@@ -39,6 +39,7 @@
 }
 
 .box1 {
+    grid-area:auto;    
     aspect-ratio: 4 / 3; 
     max-height: 260px;
     border-radius: 25px;
