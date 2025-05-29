@@ -34,11 +34,11 @@
 
 .empty_box {
     grid-area: empty;
-    
+    display:flex;
+    align-items:center;    
 }
 
 .box1 {
-    position:relative;
     aspect-ratio: 4 / 3; 
     max-height: 260px;
     border-radius: 25px;
