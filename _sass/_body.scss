@@ -15,7 +15,7 @@
 
 .box_notice {
     display:grid;
-    grid-template-rows: 2vh; repeat(2, 1fr);
+    grid-template-rows: 2vh repeat(2, 1fr);
     grid-template-columns:repeat(2,1fr);
     grid-template-areas:
     "empty  empty"
