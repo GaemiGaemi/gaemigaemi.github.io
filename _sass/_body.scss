@@ -12,26 +12,10 @@
     /*border:1px dashed rgb(0, 0, 0);*/
 }
 
-.box_first {
-    margin:0 auto;
-    padding-top: 20vh;
-    padding-bottom: 5vh;
-    width:100%;
-    aspect-ratio: 16 / 12; 
-    max-width: 1200px;
-    min-width: 400px;
-}
-
-
-.box_ad{
-    display: inline-block;
-    width:8%;
-    max-width: 90px;
-    background-color: antiquewhite;
-}
 
 .box_notice {
-        display: inline-block;
+    padding-top: 20vh;
+    padding-bottom: 5vh;
     margin:0 auto;
     width:80%;
     aspect-ratio: 16 / 12; 
