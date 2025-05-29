@@ -15,13 +15,12 @@
 
 .box_notice {
     display:flex;
-    padding-top: 20vh;
-    padding-bottom: 5vh;
+    flex-wrap:wrap; 
     margin:0 auto;
     width:80%;
-    aspect-ratio: 16 / 12; 
     max-width: 1000px;
     min-width: 400px;
+    aspect-ratio: 16 / 12; 
     background-image: url('/assets/img/bg_notice.png');
     background-size: cover;
     background-position: center;
@@ -30,11 +29,13 @@
 }
 
 .box1 {
-    padding-top: 1vh;
-    flex:0 0 40%-10px;
+    flex:0 0 calc(40% - 10px); 
     height: 4vh;
     border-radius: 25px;
     background-color: antiquewhite;
+    display:flex;             /* 안쪽 글씨 세로 가운데 */
+    align-items:center;
+    justify-content:center;
 }
 
 
