@@ -13,7 +13,6 @@
 }
 
 .box_first {
-    display: inline-block;
     margin:0 auto;
     padding-top: 20vh;
     padding-bottom: 5vh;
@@ -24,7 +23,15 @@
 }
 
 
+.box_ad{
+    display: inline-block;
+    width:8%;
+    max-width: 90px;
+    background-color: antiquewhite;
+}
+
 .box_notice {
+        display: inline-block;
     margin:0 auto;
     width:80%;
     aspect-ratio: 16 / 12; 
@@ -36,11 +43,6 @@
     text-align: center;
 }
 
-.box_ad{
-    width:8%;
-    max-width: 90px;
-    background-color: antiquewhite;
-}
 
 
 #slideshow {
