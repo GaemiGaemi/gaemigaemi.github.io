@@ -24,12 +24,13 @@
     background-image: url('/assets/img/bg_notice.png');
     background-size: cover;
     background-position: center;
-    text-align: center;
+    align-items: center;
 }
 
 .box1 {
+    padding-top: 0.5vh;
     width:80%;
-    aspect-ratio: 8 / 1;
+    aspect-ratio: 9 / 1;
     border-radius: 25px;
     background-color: antiquewhite;
 }
