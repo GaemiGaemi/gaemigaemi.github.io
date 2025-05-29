@@ -30,8 +30,9 @@
 .box_wrap {
     display:grid;
     padding-top:4vh;
-    grid-template-columns:repeat(2,1fr);
     width:100%;
+    grid-template-columns:repeat(2,1fr);
+    justify-items: center;
     gap:10px;
 }
 
