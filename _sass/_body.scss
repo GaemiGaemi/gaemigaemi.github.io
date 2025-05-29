@@ -26,7 +26,7 @@
     background-size: cover;
     background-position: center;
     justify-content:center;
-    align-content:space-between;
+    align-content:space-evenly;
     align-items: center;
     gap: 10px;
 }
@@ -34,7 +34,7 @@
 .box1 {
     flex:0 0 calc(40% - 10px); 
     aspect-ratio: 16 / 12; 
-    max-height: 280px;
+    max-height: 260px;
     border-radius: 25px;
     background-color: antiquewhite;
     display:flex;             /* 안쪽 글씨 세로 가운데 */
