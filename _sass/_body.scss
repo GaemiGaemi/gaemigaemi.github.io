@@ -30,7 +30,7 @@
 
 .box1 {
     flex:0 0 calc(40% - 10px); 
-    height: 10vh;
+    aspect-ratio: 16 / 12; 
     max-height: 280px;
     border-radius: 25px;
     background-color: antiquewhite;
