@@ -12,11 +12,23 @@
     /*border:1px dashed rgb(0, 0, 0);*/
 }
 
+.box_first {
+    margin:0 auto;
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+    width:100%;
+    aspect-ratio: 16 / 12; 
+    max-width: 1200px;
+    min-width: 400px;
+    text-align: center;
+}
+
+
 .box_notice {
     margin:0 auto;
     padding-top: 20vh;
     padding-bottom: 5vh;
-    width:80vw;
+    width:80%;
     aspect-ratio: 16 / 12; 
     max-width: 1000px;
     min-width: 400px;
@@ -25,6 +37,14 @@
     background-position: center;
     text-align: center;
 }
+
+.box_ad{
+    width:10%;
+    max-width: 100px;
+    background-color: antiquewhite;
+
+}
+
 
 #slideshow {
     display:block;
