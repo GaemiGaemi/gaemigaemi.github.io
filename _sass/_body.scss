@@ -14,6 +14,7 @@
 
 
 .box_notice {
+    display: flex;
     width:80%;
     max-width: 1000px;
     min-width: 400px;
@@ -21,6 +22,8 @@
     background-image: url('/assets/img/bg_notice.png');
     background-size: cover;
     background-position: center;
+    align-items: center;
+    justify-items: center;
     margin:0 auto;
 }
 
