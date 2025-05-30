@@ -65,15 +65,14 @@
 }
 
 
-.YouTube_Box{
+#YouTube_Box{
     display:grid;
     place-items:center;
     width: 100%;
     margin: 0 auto;
 }
 
-.YouTube_Box iframe {
-    display:block;
+#YouTube_Box iframe {
     width: 100%;
     height: 100%;
 }
