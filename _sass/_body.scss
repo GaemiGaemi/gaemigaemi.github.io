@@ -29,11 +29,11 @@
 
 .box_wrap {
     margin-top:4.6vh;
-    padding-inline:1.6vw;
+    padding-inline:1.4vw;
     display:grid;
     width:80%;
     grid-template-columns:repeat(2,1fr);
-    gap:8px;
+    gap:5px;
     justify-items:stretch; 
     align-items:center;
 }
