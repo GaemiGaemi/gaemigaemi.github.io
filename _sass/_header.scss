@@ -32,6 +32,15 @@ header {
     border-radius: 50%;
 }
 
+#clock {
+   font-size: 2em;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 50px;
+}
+
+
+
 .menu-overlay {
   position: fixed;
   top: 0;
@@ -67,4 +76,6 @@ header {
 .header__menu:hover i {
     color: rgb(134, 152, 255);
 }
+
+
 
