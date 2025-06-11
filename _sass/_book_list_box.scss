@@ -10,8 +10,8 @@
 
     .circle-wrapper {
       position: relative;
-      width: 300px;
-      height: 300px;
+      width: 80vw;
+      height: 80vh;
       perspective: 1000px;
     }
 
@@ -26,8 +26,8 @@
 
     .item {
       position: absolute;
-      width: 60px;
-      height: 90px;
+      width: 30vw;
+      height: 90vh;
       background: #4caf50;
       border-radius: 8px;
       display: flex;
