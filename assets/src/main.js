@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
       box.innerText = i + 1;
 
       const angle = angleStep * i;
-      box.style.transform = `rotateY(${angle}deg) translateZ(${radius}px)`;
+      box.style.transform = `translate(-50%, -50%) rotateY(${angle}deg) translateZ(${radius}px)`;
 
       box.addEventListener("click", () => {
         alert(`Box ${i + 1} clicked!`);
