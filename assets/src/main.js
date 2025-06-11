@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     for (let i = 0; i < boxCount; i++) {
       const box = document.createElement("div");
-      box.className = "item";
+      box.className = "book_item";
       box.innerText = i + 1;
 
       const angle = angleStep * i;
