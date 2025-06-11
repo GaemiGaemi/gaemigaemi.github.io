@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const circle = document.getElementById("circle");
     const book_list_wrap = document.getElementById("book_list_wrap");
     const boxCount = 10;
-    const radius = 120;
+    const radius = 400;
     let currentAngle = 0;
     let autoRotate = true;
 
