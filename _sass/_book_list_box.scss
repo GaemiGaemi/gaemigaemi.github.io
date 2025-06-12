@@ -26,8 +26,9 @@
 
 .book_item {
   position: absolute;
-  width: 14vw;
+  width: 12vw;
   aspect-ratio: 1/1.4; 
+  min-width: 250px;
   max-width: 300px;
   background: #68a0e9;
   border-radius: 15px;
