@@ -56,5 +56,8 @@
   /* 모바일 */
 @media (max-width: 450px;) {
 
+    .book_item {
+        transform: translateZ(350px);
+    }
 
 }
