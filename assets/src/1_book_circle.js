@@ -2,7 +2,7 @@
     const book_list_wrap = document.getElementById("book_list_wrap");
     const boxCount = 10;
     const vw = window.innerWidth;
-    const radius = Math.min(vw * 0.3, 800); // 최대 400px까지만
+    const radius = Math.min(vw * 0.3, 800); // 최대 800px까지만
     let currentAngle = 0;
     let autoRotate = true;
 
@@ -55,3 +55,8 @@
     book_list_wrap.addEventListener("mouseleave", () => {
       autoRotate = true;
     });   
+
+
+    window.addEventListener("resize", updateRadius);
+    window.addEventListener("orientationchange", updateRadius); // 모바일 회전 대응
+    updateRadius();
