@@ -7,6 +7,8 @@
     let autoRotate = true;
 
     const angleStep = 360 / boxCount;
+    const book_item = document.getElementById("book_item");
+
 
     for (let i = 0; i < boxCount; i++) {
       const box = document.createElement("div");
@@ -27,7 +29,7 @@
       circle.style.transform = `rotateY(${currentAngle}deg)`;
     }
 
-    window.addEventListener("wheel", (e) => {
+    book_item.addEventListener("wheel", (e) => {
       e.preventDefault(); // 스크롤 방지  
       const direction = e.deltaY > 0 ? 1 : -1;
       currentAngle += angleStep * direction;
