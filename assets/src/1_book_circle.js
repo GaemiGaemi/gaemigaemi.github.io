@@ -8,6 +8,9 @@ let autoRotate = true;
 
 const angleStep = 360 / boxCount;
 
+window.addEventListener("resize", updateRadius);
+window.addEventListener("orientationchange", updateRadius); // 모바일 회전 대응
+updateRadius();
 
 for (let i = 0; i < boxCount; i++) {
   const box = document.createElement("div");
@@ -72,6 +75,3 @@ function updateRadius() {
 }
 
 
-window.addEventListener("resize", updateRadius);
-window.addEventListener("orientationchange", updateRadius); // 모바일 회전 대응
-updateRadius();
