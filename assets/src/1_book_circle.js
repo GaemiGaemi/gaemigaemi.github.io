@@ -68,7 +68,7 @@ function updateRadius() {
   const boxes = document.querySelectorAll(".book_item");
   boxes.forEach((box, i) => {
     const angle = angleStep * i;
-    box.style.transform = `translate(-50%, -50%) rotateY(${angle}deg) translateZ(${radius}px)`;
+    box.style.transform = `translate(-50%, -50%) rotateY(${angle}deg)`;
   });
   
   updateRotation(); // 회전 유지
