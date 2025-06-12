@@ -5,8 +5,9 @@
     const radius = Math.min(vw * 0.3, 800); // 최대 400px까지만
     let currentAngle = 0;
     let autoRotate = true;
-    const angleStep = 360 / boxCount;
 
+    const angleStep = 360 / boxCount;
+    
 
     for (let i = 0; i < boxCount; i++) {
       const box = document.createElement("div");
