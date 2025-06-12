@@ -1,8 +1,7 @@
     const circle = document.getElementById("circle");
     const book_list_wrap = document.getElementById("book_list_wrap");
     const boxCount = 10;
-    const itemCount = book_item.length;
-    const radius = itemCount * 60; 
+    const radius = boxCount * 60; 
     let currentAngle = 0;
     let autoRotate = true;
 
