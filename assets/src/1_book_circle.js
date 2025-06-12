@@ -28,10 +28,11 @@
     }
 
     window.addEventListener("wheel", (e) => {
+      e.preventDefault(); // 스크롤 방지  
       const direction = e.deltaY > 0 ? 1 : -1;
       currentAngle += angleStep * direction;
       updateRotation();
-    });
+    }, { passive: false });
 
     // 자동 회전 (정지 상태일 땐 천천히 돈다)
     setInterval(() => {
