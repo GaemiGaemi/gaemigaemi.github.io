@@ -50,7 +50,7 @@ function updateDateTime() {
   const dateStr = `${year}-${month}-${day} ${dayOfWeek}`;
   const timeStr = `${hours}:${minutes}:${seconds}`;
 
-  document.getElementById('datetime').textContent = `${dateStr}'<br>'${timeStr}`;
+  document.getElementById('datetime').innerHTML = `${dateStr}<br>${timeStr}`;
 }
 
 setInterval(updateDateTime, 1000); // 1초마다 갱신
