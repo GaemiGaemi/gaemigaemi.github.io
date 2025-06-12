@@ -2,7 +2,7 @@ const circle = document.getElementById("circle");
 const book_list_wrap = document.getElementById("book_list_wrap");
 const boxCount = 10;
 const vw = window.innerWidth;
-let radius = Math.min(vw * 0.3, 800); // 최대 800px까지만
+let radius = Math.min(vw * 0.3, 650); // 최대 800px까지만
 let currentAngle = 0;
 let autoRotate = true;
 
@@ -63,7 +63,7 @@ book_list_wrap.addEventListener("mouseleave", () => {
 
 function updateRadius() {
   const vw = window.innerWidth;
-  radius = Math.min(vw * 0.6, 800); // 반지름 다시 계산
+  radius = Math.min(vw * 0.6, 650); // 반지름 다시 계산
   
   const boxes = document.querySelectorAll(".book_item");
   boxes.forEach((box, i) => {
