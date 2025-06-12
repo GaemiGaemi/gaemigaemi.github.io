@@ -37,6 +37,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function updateDateTime() {
   const now = new Date();
+  const weekdays = ['일', '월', '화', '수', '목', '금', '토'];
+  const dayOfWeek = weekdays[now.getDay()];
 
   const year = now.getFullYear();
   const month = String(now.getMonth() + 1).padStart(2, '0'); // 월은 0부터 시작
@@ -45,10 +47,10 @@ function updateDateTime() {
   const minutes = String(now.getMinutes()).padStart(2, '0');
   const seconds = String(now.getSeconds()).padStart(2, '0');
 
-  const dateStr = `${year}-${month}-${day}`;
+  const dateStr = `${year}-${month}-${day} ${dayOfWeek}`;
   const timeStr = `${hours}:${minutes}:${seconds}`;
 
-  document.getElementById('datetime').textContent = `${dateStr} ${timeStr}`;
+  document.getElementById('datetime').textContent = `${dateStr}<br>${timeStr}`;
 }
 
 setInterval(updateDateTime, 1000); // 1초마다 갱신
