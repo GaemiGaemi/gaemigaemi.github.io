@@ -2,7 +2,7 @@
     const book_list_wrap = document.getElementById("book_list_wrap");
     const boxCount = 10;
     const vw = window.innerWidth;
-    const radius = Math.min(vw * 0.4, 400); // 최대 400px까지만
+    const radius = Math.min(vw * 0.4, 800); // 최대 400px까지만
     let currentAngle = 0;
     let autoRotate = true;
 
