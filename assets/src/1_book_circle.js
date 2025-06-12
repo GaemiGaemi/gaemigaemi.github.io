@@ -57,19 +57,21 @@ book_list_wrap.addEventListener("mouseleave", () => {
 });
 
 
-window.addEventListener("resize", updateRadius);
-window.addEventListener("orientationchange", updateRadius); // 모바일 회전 대응
-updateRadius();
 
 function updateRadius() {
   const vw = window.innerWidth;
   radius = Math.min(vw * 0.3, 800); // 반지름 다시 계산
-
+  
   const boxes = document.querySelectorAll(".book_item");
   boxes.forEach((box, i) => {
     const angle = angleStep * i;
     box.style.transform = `translate(-50%, -50%) rotateY(${angle}deg) translateZ(${radius}px)`;
   });
-
+  
   updateRotation(); // 회전 유지
 }
+
+
+window.addEventListener("resize", updateRadius);
+window.addEventListener("orientationchange", updateRadius); // 모바일 회전 대응
+updateRadius();
