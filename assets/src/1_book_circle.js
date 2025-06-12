@@ -63,11 +63,11 @@ book_list_wrap.addEventListener("mouseleave", () => {
 
 function updateRadius() {
   const vw = window.innerWidth;
-  radius = Math.min(vw * 0.6, 650); // 반지름 다시 계산
+  radius = Math.min(vw * 1, 650); // 반지름 다시 계산
   
   const boxes = document.querySelectorAll(".book_item");
   boxes.forEach((box, i) => {
-    const angle = angleStep * i;
+    const angle = angleStep * i*2;
     box.style.transform = `translate(-50%, -50%) rotateY(${angle}deg) translateZ(${radius}px)`;
   });
   
