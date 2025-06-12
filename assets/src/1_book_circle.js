@@ -61,8 +61,6 @@ window.addEventListener("resize", updateRadius);
 window.addEventListener("orientationchange", updateRadius); // 모바일 회전 대응
 updateRadius();
 
-let radius = Math.min(window.innerWidth * 0.3, 800); // 기존 const → let
-
 function updateRadius() {
   const vw = window.innerWidth;
   radius = Math.min(vw * 0.3, 800); // 반지름 다시 계산
