@@ -63,7 +63,7 @@ book_list_wrap.addEventListener("mouseleave", () => {
 
 function updateRadius() {
   const vw = window.innerWidth;
-  radius = Math.min(vw * 0.3, 800); // 반지름 다시 계산
+  radius = Math.min(vw * 0.6, 800); // 반지름 다시 계산
   
   const boxes = document.querySelectorAll(".book_item");
   boxes.forEach((box, i) => {
